@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#ffffff">
+  <title>MKtec | iPhone y accesorios en Perú</title>
+  <meta name="description" content="Catálogo de iPhones y accesorios en Perú. Revisa modelos y precios publicados, y confirma disponibilidad, condiciones y compra directamente por WhatsApp con MKtec.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MKtec">
+  <meta property="og:title" content="MKtec | iPhone y accesorios en Perú">
+  <meta property="og:description" content="Catálogo de iPhones y accesorios en Perú. Precios publicados y atención directa por WhatsApp para confirmar disponibilidad y condiciones.">
+  <meta property="og:image" content="assets/mktec/iphone-17-pro-max.png">
+  <meta property="og:locale" content="es_PE">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preload" as="image" href="assets/mktec/iphone-17-pro-max.png" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/mktec/iphone-18-pro.png">
+  <style>
+    :root{
+      --white:#ffffff;
+      --paper:#f7f8fa;
+      --silver-50:#f2f4f7;
+      --silver-100:#e9ecf0;
+      --silver-200:#dce1e7;
+      --line:#e1e5ea;
+      --steel:#8b939f;
+      --slate:#5f6773;
+      --graphite:#2a2e35;
+      --ink:#121418;
+      --wa:#0f7a41;
+      --wa-dark:#0a5f32;
+      --wa-bright:#25d366;
+      --radius:22px;
+      --max:1180px;
+      --header-h:78px;
+      --ease:cubic-bezier(.2,.7,.2,1);
+      --shadow-sm:0 1px 2px rgba(18,20,24,.04),0 10px 30px rgba(18,20,24,.045);
+      --shadow-md:0 2px 4px rgba(18,20,24,.04),0 18px 48px rgba(18,20,24,.08);
+      --shadow-lg:0 30px 80px rgba(18,20,24,.12);
+    }
+
+    *,*::before,*::after{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:calc(var(--header-h) + 20px);-webkit-text-size-adjust:100%}
+    body{
+      margin:0;
+      background:var(--white);
+      color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size:16px;
+      line-height:1.6;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      overflow-x:clip;
+    }
+    body.menu-open{overflow:hidden}
+    h1,h2,h3,h4,p,ul,ol,figure{margin:0}
+    ul,ol{padding:0;list-style:none}
+    img{display:block;max-width:100%}
+    a{color:inherit;text-decoration:none}
+    button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+    svg{display:block}
+    ::selection{background:#d9dee5;color:var(--ink)}
+    :focus-visible{outline:2px solid var(--ink);outline-offset:3px;border-radius:6px}
+    .section--dark :focus-visible,.site-footer :focus-visible{outline-color:#fff}
+    .container{width:min(calc(100% - 48px),var(--max));margin-inline:auto}
+    .section{padding:96px 0}
+    .sr-only{
+      position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;
+      overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;
+    }
+    .skip-link{
+      position:fixed;top:12px;left:12px;z-index:200;padding:12px 18px;border-radius:10px;
+      background:var(--ink);color:#fff;font-size:.9rem;font-weight:600;
+      transform:translateY(-160%);transition:transform .2s var(--ease);
+    }
+    .skip-link:focus{transform:translateY(0)}
+    .icon{width:1.15em;height:1.15em;flex:none}
+    .svg-sprite{position:absolute;width:0;height:0;overflow:hidden}
+
+    .eyebrow{
+      display:inline-flex;align-items:center;gap:9px;
+      padding:7px 13px;border:1px solid var(--line);border-radius:999px;
+      background:rgba(255,255,255,.72);
+      font-size:.7rem;font-weight:650;letter-spacing:.15em;text-transform:uppercase;color:#4d5560;
+    }
+    .eyebrow-dot{width:6px;height:6px;border-radius:50%;background:var(--steel);flex:none}
+    .section-head{
+      display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+      gap:40px;align-items:end;margin-bottom:42px;
+    }
+    .section-head h2{
+      font-size:clamp(2rem,3.6vw,3.15rem);line-height:1.04;letter-spacing:-.04em;
+      font-weight:650;margin-top:18px;max-width:14ch;
+    }
+    .section-head .head-copy{color:var(--slate);max-width:47ch;justify-self:end;font-size:1rem;margin-bottom:5px}
+    .section-head .head-copy p + p{margin-top:12px}
+
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:9px;
+      min-height:50px;padding:0 24px;border-radius:999px;
+      font-size:.93rem;font-weight:650;line-height:1.2;letter-spacing:-.01em;
+      border:1px solid transparent;cursor:pointer;
+      transition:background-color .22s var(--ease),color .22s var(--ease),border-color .22s var(--ease),transform .22s var(--ease),box-shadow .22s var(--ease);
+    }
+    .btn .icon{width:18px;height:18px}
+    .btn:hover{transform:translateY(-1px)}
+    .btn:active{transform:translateY(0)}
+    .btn--dark{background:var(--ink);color:#fff;box-shadow:0 8px 20px rgba(18,20,24,.14)}
+    .btn--dark:hover{background:#30343b;box-shadow:0 12px 26px rgba(18,20,24,.18)}
+    .btn--wa{background:var(--wa);color:#fff;box-shadow:0 8px 20px rgba(15,122,65,.16)}
+    .btn--wa:hover{background:var(--wa-dark);box-shadow:0 12px 26px rgba(15,122,65,.24)}
+    .btn--ghost{background:rgba(255,255,255,.7);border-color:var(--line);color:var(--ink)}
+    .btn--ghost:hover{background:#fff;border-color:#c9d0d8}
+    .btn--block{width:100%}
+
+    .site-header{
+      position:sticky;top:0;z-index:80;
+      background:rgba(255,255,255,.9);
+      -webkit-backdrop-filter:saturate(160%) blur(18px);
+      backdrop-filter:saturate(160%) blur(18px);
+      border-bottom:1px solid rgba(225,229,234,.85);
+      transition:box-shadow .25s var(--ease);
+    }
+    .site-header.is-scrolled{box-shadow:0 8px 30px rgba(18,20,24,.06)}
+    .header-inner{display:flex;align-items:center;justify-content:space-between;gap:26px;height:var(--header-h)}
+    .brand{display:inline-flex;align-items:center;gap:12px;flex:none;min-width:0}
+    .brand-logo{height:52px;width:auto;object-fit:contain;flex:none}
+    .brand-text{display:flex;flex-direction:column;line-height:1.08;min-width:0}
+    .brand-name{font-size:1.16rem;font-weight:720;letter-spacing:-.025em}
+    .brand-tag{font-size:.62rem;font-weight:600;letter-spacing:.17em;text-transform:uppercase;color:var(--slate);margin-top:5px;white-space:nowrap}
+    .main-nav{display:flex;align-items:center;gap:28px}
+    .main-nav a{
+      position:relative;padding:8px 0;font-size:.865rem;font-weight:550;color:#4c545f;
+      transition:color .2s var(--ease);
+    }
+    .main-nav a::after{
+      content:"";position:absolute;left:0;right:0;bottom:1px;height:1.5px;border-radius:2px;
+      background:var(--ink);transform:scaleX(0);transform-origin:left;transition:transform .25s var(--ease);
+    }
+    .main-nav a:hover,.main-nav a.is-active{color:var(--ink)}
+    .main-nav a:hover::after,.main-nav a.is-active::after{transform:scaleX(1)}
+    .header-actions{display:flex;align-items:center;gap:10px;flex:none}
+    .header-actions .btn{min-height:44px;padding:0 18px;font-size:.82rem}
+    .menu-toggle{
+      display:none;place-items:center;width:46px;height:46px;border:1px solid var(--line);
+      border-radius:12px;background:#fff;flex:none;
+    }
+    .menu-toggle .bars{position:relative;display:block;width:19px;height:14px}
+    .menu-toggle .bars span{
+      position:absolute;left:0;width:100%;height:1.6px;border-radius:2px;background:var(--ink);
+      transition:transform .25s var(--ease),opacity .18s var(--ease),top .25s var(--ease);
+    }
+    .menu-toggle .bars span:nth-child(1){top:0}
+    .menu-toggle .bars span:nth-child(2){top:6.2px}
+    .menu-toggle .bars span:nth-child(3){top:12.4px}
+    .menu-toggle[aria-expanded="true"] .bars span:nth-child(1){top:6.2px;transform:rotate(45deg)}
+    .menu-toggle[aria-expanded="true"] .bars span:nth-child(2){opacity:0}
+    .menu-toggle[aria-expanded="true"] .bars span:nth-child(3){top:6.2px;transform:rotate(-45deg)}
+    .mobile-menu{
+      position:absolute;left:0;right:0;top:100%;
+      background:#fff;border-bottom:1px solid var(--line);
+      box-shadow:0 24px 40px rgba(18,20,24,.1);
+      padding:10px 24px 24px;
+      max-height:calc(100dvh - var(--header-h));overflow-y:auto;
+      opacity:0;visibility:hidden;pointer-events:none;transform:translateY(-8px);
+      transition:opacity .22s var(--ease),transform .22s var(--ease),visibility .22s;
+    }
+    .mobile-menu.is-open{opacity:1;visibility:visible;pointer-events:auto;transform:none}
+    .mobile-menu nav{display:flex;flex-direction:column}
+    .mobile-menu nav a{
+      display:flex;align-items:center;min-height:50px;padding:0 4px;
+      border-bottom:1px solid var(--line);font-size:1rem;font-weight:550;color:#3d444e;
+    }
+    .mobile-menu nav a:last-child{border-bottom:0}
+    .mobile-menu .btn{margin-top:14px}
+    .mobile-menu .menu-phone{
+      display:flex;align-items:center;gap:8px;justify-content:center;
+      margin-top:14px;font-size:.8rem;color:var(--slate);
+    }
+
+    .hero{
+      position:relative;overflow:hidden;isolation:isolate;
+      background:
+        radial-gradient(720px 480px at 82% 16%,#eef1f5 0%,rgba(238,241,245,0) 70%),
+        radial-gradient(620px 420px at 96% 78%,#f3f4f6 0%,rgba(243,244,246,0) 72%),
+        linear-gradient(180deg,#fff 0%,#fcfcfd 100%);
+    }
+    .hero::before{
+      content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
+      background-image:linear-gradient(to right,rgba(18,20,24,.026) 1px,transparent 1px);
+      background-size:92px 100%;
+      -webkit-mask-image:linear-gradient(to bottom,transparent,#000 22%,#000 70%,transparent);
+      mask-image:linear-gradient(to bottom,transparent,#000 22%,#000 70%,transparent);
+    }
+    .hero-grid{
+      display:grid;grid-template-columns:minmax(0,1.03fr) minmax(0,.97fr);
+      gap:48px;align-items:center;padding:62px 0 56px;min-height:600px;
+    }
+    .hero-copy{position:relative;z-index:3;max-width:590px}
+    .hero h1{
+      margin-top:24px;font-size:clamp(2.7rem,5.2vw,4.55rem);
+      line-height:.97;letter-spacing:-.052em;font-weight:660;max-width:13ch;
+      text-wrap:balance;
+    }
+    .hero h1 .soft{color:#7c848f;font-weight:480}
+    .hero-lead{margin-top:24px;max-width:52ch;font-size:1.04rem;line-height:1.72;color:var(--slate)}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+    .hero-note{display:flex;align-items:center;gap:8px;margin-top:18px;font-size:.8rem;color:var(--slate)}
+    .hero-note .icon{width:15px;height:15px;color:#767f8b}
+    .hero-note a{font-weight:600;color:#3f4650;border-bottom:1px solid #c6ccd4;padding-bottom:1px}
+    .hero-note a:hover{color:var(--ink);border-color:var(--ink)}
+
+    .hero-stage{position:relative;height:560px;min-width:0;z-index:2}
+    .stage-disc{
+      position:absolute;left:50%;bottom:4px;transform:translateX(-50%);
+      width:min(100%,540px);height:455px;border-radius:50%;
+      background:
+        radial-gradient(circle at 50% 42%,rgba(255,255,255,.95) 0%,rgba(255,255,255,.4) 46%,rgba(225,229,235,.35) 68%,rgba(225,229,235,0) 73%);
+      border:1px solid rgba(220,225,231,.75);
+      box-shadow:inset 0 1px 0 rgba(255,255,255,.9);
+    }
+    .stage-disc::after{
+      content:"";position:absolute;inset:22px;border-radius:50%;
+      border:1px solid rgba(255,255,255,.75);
+    }
+    .phone{
+      position:absolute;height:auto;width:auto;
+      filter:drop-shadow(0 32px 42px rgba(18,20,24,.18));
+      -webkit-user-select:none;user-select:none;
+    }
+    .phone--front{
+      width:330px;left:50%;bottom:22px;z-index:3;
+      transform:translateX(-58%) rotate(-3deg);
+    }
+    .phone--back{
+      width:282px;left:50%;bottom:82px;z-index:2;
+      transform:translateX(-10%) rotate(4.5deg);
+      filter:drop-shadow(0 26px 36px rgba(18,20,24,.13));
+    }
+    .float-card{
+      position:absolute;z-index:4;
+      background:rgba(255,255,255,.9);
+      -webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);
+      border:1px solid rgba(225,229,234,.95);border-radius:14px;
+      box-shadow:0 14px 36px rgba(18,20,24,.09);
+      padding:11px 15px;
+    }
+    .float-card--price{right:0;bottom:118px}
+    .float-card--models{left:2px;top:68px;display:flex;align-items:center;gap:10px}
+    .float-label{font-size:.6rem;font-weight:650;letter-spacing:.13em;text-transform:uppercase;color:#5d6571;line-height:1.3}
+    .float-value{display:flex;align-items:baseline;gap:4px;margin-top:3px;font-size:1.18rem;font-weight:700;letter-spacing:-.03em}
+    .float-value small{font-size:.72rem;font-weight:600;color:var(--slate)}
+    .float-dot{
+      display:grid;place-items:center;width:30px;height:30px;border-radius:50%;
+      background:var(--silver-50);border:1px solid var(--line);color:#5b636e;flex:none;
+    }
+    .float-dot .icon{width:14px;height:14px}
+    .float-models-text{font-size:.78rem;font-weight:600;line-height:1.25;color:#3d444e}
+    .float-models-text span{display:block;font-size:.64rem;font-weight:500;color:#5d6571;margin-top:1px}
+
+    .trust{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#fff}
+    .trust-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+    .trust-item{display:flex;align-items:flex-start;gap:13px;padding:25px 30px;border-right:1px solid var(--line)}
+    .trust-item:first-child{padding-left:0}
+    .trust-item:last-child{border-right:0;padding-right:0}
+    .trust-icon{
+      display:grid;place-items:center;width:36px;height:36px;flex:none;border-radius:10px;
+      background:var(--silver-50);border:1px solid var(--line);color:#5b636e;
+    }
+    .trust-icon .icon{width:17px;height:17px}
+    .trust-item h2{font-size:.82rem;font-weight:650;letter-spacing:-.01em;margin-bottom:3px}
+    .trust-item p{font-size:.76rem;line-height:1.55;color:var(--slate)}
+
+    .catalog{background:var(--paper);border-bottom:1px solid var(--line)}
+    .catalog .section-head{margin-bottom:38px}
+    .catalog-note{
+      display:flex;align-items:flex-start;gap:9px;
+      margin-top:22px;max-width:82ch;font-size:.76rem;line-height:1.6;color:#5d6571;
+    }
+    .catalog-note .icon{width:15px;height:15px;margin-top:2px;flex:none;color:#7d8590}
+
+    .product{
+      background:#fff;border:1px solid #e3e7ec;border-radius:24px;overflow:hidden;
+      box-shadow:var(--shadow-sm);
+      transition:transform .3s var(--ease),box-shadow .3s var(--ease),border-color .3s var(--ease);
+    }
+    .product:hover{transform:translateY(-3px);box-shadow:var(--shadow-md);border-color:#d5dbe3}
+    .product--featured{
+      display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);
+      margin-bottom:22px;
+    }
+    .product-media{
+      position:relative;display:flex;align-items:center;justify-content:center;
+      min-height:300px;overflow:hidden;
+      background:
+        radial-gradient(70% 62% at 50% 45%,#fff 0%,rgba(255,255,255,0) 72%),
+        linear-gradient(145deg,#f1f3f6 0%,#e2e6eb 100%);
+    }
+    .product--featured .product-media{min-height:480px}
+    .product-media::before{
+      content:"";position:absolute;width:74%;aspect-ratio:1;border-radius:50%;
+      border:1px solid rgba(255,255,255,.8);
+      box-shadow:0 0 0 30px rgba(255,255,255,.14);
+    }
+    .product-media img{
+      position:relative;z-index:1;width:66%;max-width:300px;height:auto;
+      filter:drop-shadow(0 24px 30px rgba(18,20,24,.14));
+      transition:transform .4s var(--ease);
+    }
+    .product:hover .product-media img{transform:translateY(-4px)}
+    .product--featured .product-media img{width:72%;max-width:355px}
+    .product-tag{
+      position:absolute;top:18px;left:18px;z-index:2;
+      display:inline-flex;align-items:center;gap:6px;
+      padding:6px 10px;border-radius:999px;background:rgba(18,20,24,.86);color:#fff;
+      font-size:.6rem;font-weight:650;letter-spacing:.11em;text-transform:uppercase;
+    }
+    .product-tag .icon{width:11px;height:11px}
+    .reference{
+      position:absolute;left:18px;bottom:16px;z-index:2;
+      font-size:.6rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#5d6571;
+      background:rgba(255,255,255,.78);border:1px solid rgba(225,229,234,.9);
+      border-radius:999px;padding:4px 9px;
+    }
+    .product-body{padding:34px 34px 32px;display:flex;flex-direction:column;min-width:0}
+    .product-kicker{font-size:.66rem;font-weight:650;letter-spacing:.16em;text-transform:uppercase;color:#5d6571}
+    .product-body h3{font-size:clamp(1.5rem,2.4vw,2.05rem);line-height:1.1;letter-spacing:-.035em;font-weight:650;margin-top:6px}
+    .product-chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:13px}
+    .chip{
+      display:inline-flex;align-items:center;gap:5px;
+      padding:5px 9px;border:1px solid #e2e6eb;border-radius:7px;background:#f6f7f9;
+      font-size:.68rem;font-weight:600;color:#4f5762;letter-spacing:.01em;
+    }
+    .chip .icon{width:11px;height:11px;color:#727b87}
+    .product-desc{margin-top:14px;font-size:.86rem;line-height:1.65;color:var(--slate);max-width:46ch}
+    .price-block{margin-top:auto;padding-top:22px}
+    .price-label{font-size:.6rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#5d6571}
+    .price{display:flex;align-items:baseline;gap:6px;margin-top:2px;letter-spacing:-.045em}
+    .price .currency{font-size:1rem;font-weight:600;color:#545c67}
+    .price .amount{font-size:clamp(1.9rem,2.8vw,2.35rem);font-weight:680;line-height:1.1}
+    .included{margin-top:20px;padding-top:18px;border-top:1px solid var(--line)}
+    .included h4{font-size:.62rem;font-weight:650;letter-spacing:.14em;text-transform:uppercase;color:#5d6571}
+    .included ul{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}
+    .included li{
+      display:inline-flex;align-items:center;gap:5px;padding:6px 9px;
+      border:1px solid #e5e8ed;border-radius:999px;background:#f7f8fa;
+      font-size:.7rem;font-weight:550;color:#464e59;
+    }
+    .included .icon{width:11px;height:11px;color:var(--wa)}
+    .product-actions{margin-top:22px}
+    .product-actions .btn{min-height:48px;font-size:.86rem;padding-inline:18px}
+    .fine-print{margin-top:11px;font-size:.68rem;line-height:1.55;color:#5d6571}
+
+    .product-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+    .product--card{display:flex;flex-direction:column}
+    .product--card .product-media{min-height:268px}
+    .product--card .product-media img{width:56%;max-width:212px}
+    .product--card .product-body{padding:26px 26px 26px;flex:1}
+    .product--card .product-body h3{font-size:1.45rem}
+    .product--card .product-desc{font-size:.82rem;margin-top:11px}
+    .product--card .price{margin-top:18px}
+    .product--card .product-actions{margin-top:19px}
+
+    .accessories{
+      position:relative;overflow:hidden;color:#fff;
+      background:
+        radial-gradient(680px 340px at 88% -10%,rgba(255,255,255,.075),transparent 70%),
+        radial-gradient(520px 300px at 0% 100%,rgba(255,255,255,.04),transparent 70%),
+        #15171b;
+      padding:96px 0;
+    }
+    .accessories .eyebrow{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.14);color:#c6ccd4}
+    .accessories .eyebrow-dot{background:#9aa2ac}
+    .accessories .section-head h2{color:#fff}
+    .accessories .head-copy{color:#a5adb7}
+    .accessory-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+    .accessory{
+      display:flex;flex-direction:column;min-height:206px;
+      padding:22px 20px;border:1px solid rgba(255,255,255,.09);border-radius:18px;
+      background:rgba(255,255,255,.035);
+      transition:background-color .25s var(--ease),border-color .25s var(--ease),transform .25s var(--ease);
+    }
+    .accessory:hover{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.17);transform:translateY(-3px)}
+    .accessory-icon{
+      display:grid;place-items:center;width:44px;height:44px;border-radius:12px;
+      background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);color:#e4e8ed;
+    }
+    .accessory-icon .icon{width:22px;height:22px}
+    .accessory h3{font-size:.98rem;font-weight:620;letter-spacing:-.015em;margin-top:18px}
+    .accessory p{font-size:.77rem;line-height:1.6;color:#9fa7b1;margin-top:6px}
+    .accessory .acc-cta{
+      display:flex;align-items:center;gap:6px;margin-top:auto;padding-top:16px;
+      font-size:.62rem;font-weight:650;letter-spacing:.11em;text-transform:uppercase;color:#cfd5dc;
+    }
+    .accessory .acc-cta .icon{width:12px;height:12px;color:#8e97a2}
+    .accessories-foot{
+      display:flex;align-items:center;justify-content:space-between;gap:28px;
+      margin-top:32px;padding-top:28px;border-top:1px solid rgba(255,255,255,.1);
+    }
+    .accessories-foot p{font-size:.8rem;line-height:1.65;color:#9fa7b1;max-width:62ch}
+    .accessories-foot p strong{color:#e9ecf0;font-weight:600}
+    .accessories-foot .btn{flex:none}
+
+    .benefits-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+    .benefit{
+      position:relative;padding:28px 24px 30px;border:1px solid var(--line);border-radius:18px;background:#fff;
+      transition:border-color .25s var(--ease),transform .25s var(--ease),box-shadow .25s var(--ease);
+    }
+    .benefit::before{
+      content:"";position:absolute;top:0;left:24px;right:24px;height:1px;
+      background:linear-gradient(90deg,#b9c0c9,rgba(185,192,201,0));
+    }
+    .benefit:hover{border-color:#d3d9e1;transform:translateY(-3px);box-shadow:var(--shadow-sm)}
+    .benefit-index{font-size:.66rem;font-weight:650;letter-spacing:.14em;color:#5d6571}
+    .benefit h3{font-size:1.03rem;line-height:1.25;letter-spacing:-.02em;font-weight:640;margin-top:38px}
+    .benefit p{font-size:.84rem;line-height:1.65;color:var(--slate);margin-top:9px}
+
+    .faq-section{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .faq-layout{display:grid;grid-template-columns:minmax(0,.78fr) minmax(0,1.22fr);gap:64px;align-items:start}
+    .faq-aside{position:sticky;top:calc(var(--header-h) + 34px)}
+    .faq-aside h2{font-size:clamp(2rem,3.4vw,3rem);line-height:1.04;letter-spacing:-.04em;font-weight:650;margin-top:18px;max-width:12ch}
+    .faq-aside > p{color:var(--slate);font-size:.96rem;line-height:1.7;margin-top:18px;max-width:38ch}
+    .faq-card{
+      margin-top:28px;padding:22px;border:1px solid var(--line);border-radius:18px;background:#fff;
+    }
+    .faq-card h3{font-size:.9rem;font-weight:650;letter-spacing:-.01em}
+    .faq-card p{font-size:.78rem;line-height:1.6;color:var(--slate);margin-top:6px}
+    .faq-card .btn{width:100%;margin-top:14px;min-height:46px;font-size:.83rem}
+    .faq-list{border-top:1px solid #d8dee6}
+    .faq-item{border-bottom:1px solid #d8dee6}
+    .faq-item summary{
+      display:flex;align-items:center;justify-content:space-between;gap:22px;
+      min-height:72px;padding:18px 2px;cursor:pointer;list-style:none;
+      font-size:.98rem;font-weight:600;line-height:1.4;letter-spacing:-.012em;color:#262b32;
+      transition:color .2s var(--ease);
+    }
+    .faq-item summary::-webkit-details-marker{display:none}
+    .faq-item summary:hover{color:#000}
+    .faq-toggle{
+      position:relative;display:grid;place-items:center;width:30px;height:30px;flex:none;
+      border:1px solid #d8dee6;border-radius:50%;background:#fff;
+      transition:background-color .25s var(--ease),border-color .25s var(--ease),transform .3s var(--ease);
+    }
+    .faq-toggle::before,.faq-toggle::after{
+      content:"";position:absolute;background:#4d5560;border-radius:2px;
+      transition:opacity .2s var(--ease),background-color .2s var(--ease);
+    }
+    .faq-toggle::before{width:10px;height:1.4px}
+    .faq-toggle::after{width:1.4px;height:10px}
+    .faq-item[open] .faq-toggle{background:var(--ink);border-color:var(--ink);transform:rotate(45deg)}
+    .faq-item[open] .faq-toggle::before,.faq-item[open] .faq-toggle::after{background:#fff}
+    .faq-item[open] summary{color:#000}
+    .faq-answer{padding:0 48px 22px 2px;font-size:.88rem;line-height:1.72;color:#59616c;max-width:66ch}
+    .faq-answer a{font-weight:600;color:#2f363f;border-bottom:1px solid #b9c1ca}
+    .faq-answer a:hover{border-color:#2f363f}
+
+    .contact-section{padding:84px 0 96px}
+    .contact-panel{
+      position:relative;overflow:hidden;isolation:isolate;
+      display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr);
+      gap:52px;align-items:center;
+      padding:58px;border:1px solid var(--line);border-radius:30px;
+      background:linear-gradient(135deg,#ffffff 0%,#f3f5f8 58%,#eceff3 100%);
+      box-shadow:var(--shadow-sm);
+    }
+    .contact-panel::before{
+      content:"";position:absolute;z-index:-1;width:520px;height:520px;right:-170px;top:-230px;border-radius:50%;
+      background:radial-gradient(circle,rgba(255,255,255,.95),rgba(255,255,255,0) 70%);
+    }
+    .contact-panel::after{
+      content:"";position:absolute;z-index:-1;left:44%;bottom:-220px;width:460px;height:460px;border-radius:50%;
+      border:1px solid rgba(255,255,255,.8);
+      box-shadow:0 0 0 40px rgba(255,255,255,.18),0 0 0 80px rgba(255,255,255,.1);
+    }
+    .contact-copy{position:relative;z-index:1}
+    .contact-copy h2{font-size:clamp(2rem,3.6vw,3.1rem);line-height:1.04;letter-spacing:-.042em;font-weight:650;margin-top:18px;max-width:15ch}
+    .contact-copy > p{color:var(--slate);font-size:.96rem;line-height:1.7;margin-top:18px;max-width:48ch}
+    .contact-phone{
+      display:inline-flex;align-items:center;gap:10px;margin-top:26px;
+      font-size:clamp(1.35rem,2.4vw,1.75rem);font-weight:680;letter-spacing:-.03em;color:#252a31;
+      border-bottom:1px solid transparent;transition:border-color .2s var(--ease);
+    }
+    .contact-phone .icon{width:20px;height:20px;color:#626b76}
+    .contact-phone:hover{border-color:#aeb6c0}
+    .contact-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+    .contact-caption{font-size:.72rem;color:#5d6571;margin-top:16px}
+    .contact-card{
+      position:relative;z-index:1;padding:28px;border-radius:22px;color:#fff;
+      background:linear-gradient(160deg,#22262d 0%,#15171b 100%);
+      border:1px solid rgba(255,255,255,.08);
+      box-shadow:0 24px 50px rgba(18,20,24,.18);
+    }
+    .contact-card-top{display:flex;align-items:center;gap:13px;padding-bottom:20px;border-bottom:1px solid rgba(255,255,255,.1)}
+    .logo-tile{
+      display:grid;place-items:center;width:54px;height:64px;flex:none;
+      padding:4px;border-radius:10px;background:#fff;
+    }
+    .logo-tile img{width:100%;height:100%;object-fit:contain}
+    .contact-card-name{font-size:1.05rem;font-weight:700;letter-spacing:-.02em;line-height:1.15}
+    .contact-card-tag{font-size:.6rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:#9ba3ad;margin-top:5px}
+    .contact-card p{font-size:.82rem;line-height:1.65;color:#aeb6c0;margin-top:18px}
+    .contact-card-list{display:grid;gap:10px;margin-top:18px}
+    .contact-card-list li{display:flex;align-items:flex-start;gap:8px;font-size:.76rem;line-height:1.5;color:#c5ccd4}
+    .contact-card-list .icon{width:13px;height:13px;color:#8fd3a9;margin-top:2px}
+    .contact-card .btn{margin-top:20px;min-height:46px;font-size:.82rem}
+    .contact-card-note{font-size:.65rem!important;line-height:1.55!important;color:#858e99!important;margin-top:12px!important}
+
+    .site-footer{background:#101216;color:#fff;padding:64px 0 28px}
+    .footer-grid{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,.7fr) minmax(0,1fr);gap:52px}
+    .footer-brand .brand{align-items:center;gap:13px}
+    .footer-brand .logo-tile{width:50px;height:60px}
+    .footer-brand .brand-name{font-size:1.2rem}
+    .footer-brand .brand-tag{color:#8f98a3}
+    .footer-brand p{font-size:.84rem;line-height:1.7;color:#939ca7;margin-top:18px;max-width:38ch}
+    .footer-col h3{font-size:.64rem;font-weight:650;letter-spacing:.15em;text-transform:uppercase;color:#7d8691;margin-bottom:16px}
+    .footer-nav{display:grid;gap:10px}
+    .footer-nav a{font-size:.84rem;color:#c3cad2;width:fit-content;transition:color .2s var(--ease)}
+    .footer-nav a:hover{color:#fff}
+    .footer-contact a{display:flex;align-items:center;gap:8px;font-size:.84rem;color:#c3cad2;width:fit-content;transition:color .2s var(--ease)}
+    .footer-contact a:hover{color:#fff}
+    .footer-contact a + a{margin-top:11px}
+    .footer-contact .icon{width:14px;height:14px;color:#8c949f}
+    .footer-contact p{font-size:.7rem;line-height:1.6;color:#7d8691;margin-top:14px;max-width:30ch}
+    .footer-bottom{
+      display:flex;align-items:flex-start;justify-content:space-between;gap:28px;
+      margin-top:46px;padding-top:22px;border-top:1px solid rgba(255,255,255,.09);
+      font-size:.68rem;line-height:1.6;color:#78828d;
+    }
+    .footer-bottom p{max-width:72ch}
+    .footer-bottom .footer-legal{text-align:right;max-width:40ch}
+
+    .wa-float{
+      position:fixed;right:24px;bottom:calc(24px + env(safe-area-inset-bottom));z-index:90;
+      display:grid;place-items:center;width:56px;height:56px;border-radius:50%;
+      background:var(--wa);color:#fff;
+      box-shadow:0 14px 32px rgba(15,122,65,.32),0 2px 6px rgba(15,122,65,.2);
+      transition:opacity .25s var(--ease),transform .25s var(--ease),visibility .25s,background-color .2s var(--ease);
+    }
+    .wa-float:hover{background:var(--wa-dark);transform:translateY(-2px) scale(1.03)}
+    .wa-float .icon{width:28px;height:28px}
+    .wa-float.is-hidden{opacity:0;visibility:hidden;pointer-events:none;transform:translateY(10px) scale(.92)}
+
+    @media (prefers-reduced-motion:no-preference){
+      .hero-copy > *{animation:hero-rise .75s var(--ease) both}
+      .hero-copy > :nth-child(2){animation-delay:.06s}
+      .hero-copy > :nth-child(3){animation-delay:.12s}
+      .hero-copy > :nth-child(4){animation-delay:.18s}
+      .hero-copy > :nth-child(5){animation-delay:.24s}
+      .hero-stage{animation:stage-in 1s var(--ease) .1s both}
+      @keyframes hero-rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+      @keyframes stage-in{from{opacity:0;transform:translateY(18px) scale(.985)}to{opacity:1;transform:none}}
+    }
+    @media (prefers-reduced-motion:reduce){
+      html{scroll-behavior:auto}
+      *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+    }
+
+    @media (max-width:1120px){
+      .main-nav{gap:21px}
+      .brand-tag{display:none}
+      .phone--front{width:300px}
+      .phone--back{width:258px}
+      .product--featured .product-media{min-height:440px}
+      .contact-panel{padding:46px;gap:40px}
+    }
+    @media (max-width:980px){
+      :root{--header-h:72px}
+      .main-nav{display:none}
+      .menu-toggle{display:grid}
+      .brand-logo{height:48px}
+      .hero-grid{grid-template-columns:minmax(0,1fr);gap:8px;padding:52px 0 34px;min-height:0}
+      .hero-copy{max-width:640px}
+      .hero h1{max-width:14ch;font-size:clamp(2.6rem,7.2vw,4rem)}
+      .hero-stage{height:500px;margin-top:20px}
+      .stage-disc{height:420px}
+      .trust-item{padding:22px 20px}
+      .trust-item:first-child{padding-left:0}
+      .product--featured{grid-template-columns:minmax(0,1fr)}
+      .product--featured .product-media{min-height:390px}
+      .product--featured .product-body{padding:32px}
+      .product--featured .product-media img{max-width:330px}
+      .accessory-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+      .benefits-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+      .faq-layout{grid-template-columns:minmax(0,1fr);gap:36px}
+      .faq-aside{position:static}
+      .faq-aside h2{max-width:16ch}
+      .contact-panel{grid-template-columns:minmax(0,1fr);padding:42px;gap:32px}
+      .contact-card{max-width:520px}
+      .footer-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+      .footer-brand{grid-column:1/-1}
+    }
+    @media (max-width:760px){
+      .container{width:min(calc(100% - 36px),var(--max))}
+      .section{padding:72px 0}
+      .accessories{padding:72px 0}
+      .section-head{grid-template-columns:minmax(0,1fr);gap:16px;margin-bottom:32px}
+      .section-head .head-copy{justify-self:start;margin:0;font-size:.92rem;max-width:52ch}
+      .section-head h2{max-width:16ch}
+      .header-actions .btn--header{display:none}
+      .hero h1{font-size:clamp(2.55rem,9.5vw,3.6rem)}
+      .hero-lead{font-size:.98rem}
+      .hero-actions .btn{flex:1 1 auto}
+      .hero-stage{height:410px;margin-top:10px}
+      .phone--front{width:236px;bottom:8px}
+      .phone--back{width:204px;bottom:54px}
+      .stage-disc{height:335px}
+      .float-card{padding:9px 12px}
+      .float-card--models{top:30px;left:0}
+      .float-card--price{right:0;bottom:62px}
+      .float-value{font-size:1rem}
+      .float-models-text{font-size:.7rem}
+      .trust-grid{grid-template-columns:minmax(0,1fr)}
+      .trust-item{padding:17px 0;border-right:0;border-bottom:1px solid var(--line)}
+      .trust-item:last-child{border-bottom:0}
+      .product-grid{grid-template-columns:minmax(0,1fr);gap:18px}
+      .product--featured{margin-bottom:18px}
+      .product--featured .product-media{min-height:320px}
+      .product--featured .product-media img{max-width:270px}
+      .product--card .product-media{min-height:250px}
+      .product--card .product-media img{max-width:190px}
+      .product-body,.product--featured .product-body{padding:26px 22px 26px}
+      .product--card .product-body{padding:24px 22px}
+      .product-actions .btn{min-height:50px}
+      .accessory-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+      .accessories-foot{flex-direction:column;align-items:flex-start;gap:18px}
+      .accessories-foot .btn{width:100%}
+      .faq-answer{padding-right:8px}
+      .faq-item summary{min-height:66px;font-size:.94rem}
+      .contact-section{padding:56px 0 72px}
+      .contact-panel{padding:30px 22px;border-radius:24px}
+      .contact-actions{flex-direction:column;align-items:stretch}
+      .contact-actions .btn{width:100%}
+      .footer-grid{grid-template-columns:minmax(0,1fr);gap:34px}
+      .footer-bottom{flex-direction:column;gap:10px}
+      .footer-bottom .footer-legal{text-align:left}
+      .wa-float{right:15px;bottom:calc(15px + env(safe-area-inset-bottom));width:52px;height:52px}
+      .wa-float .icon{width:26px;height:26px}
+    }
+    @media (max-width:560px){
+      .benefits-grid{grid-template-columns:minmax(0,1fr)}
+      .benefit{padding:24px 22px}
+      .benefit h3{margin-top:26px}
+    }
+    @media (max-width:420px){
+      .brand{gap:9px}
+      .brand-logo{height:44px}
+      .brand-name{font-size:1.08rem}
+      .header-actions{gap:8px}
+      .hero-stage{height:370px}
+      .phone--front{width:210px}
+      .phone--back{width:180px;bottom:48px}
+      .stage-disc{height:300px;width:100%}
+      .float-card--models{display:none}
+      .accessory-grid{grid-template-columns:minmax(0,1fr)}
+      .accessory{min-height:0;padding:20px}
+      .accessory .acc-cta{padding-top:12px}
+      .contact-panel{padding:26px 18px}
+      .contact-card{padding:22px}
+    }
+    @media (min-width:1400px){
+      .hero-grid{min-height:640px}
+      .hero-stage{height:600px}
+      .phone--front{width:350px}
+      .phone--back{width:300px}
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+  <svg class="svg-sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-wa" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7M9 7h8v8"/>
+    </symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/>
+    </symbol>
+    <symbol id="i-check" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m5 12 4.5 4.5L19 7"/>
+    </symbol>
+    <symbol id="i-tag" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M20.6 13.4 12 22l-9-9V4a1 1 0 0 1 1-1h9l8.6 8.6a1.4 1.4 0 0 1 0 1.8Z"/><circle cx="7.5" cy="7.5" r="1.3" fill="none" stroke="currentColor" stroke-width="1.6"/>
+    </symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M21 11.5a8.4 8.4 0 0 1-9 8.4 9.6 9.6 0 0 1-4-.9L3 20l1-4.6A8.2 8.2 0 0 1 3 11.5 8.4 8.4 0 0 1 12 3a8.4 8.4 0 0 1 9 8.5Z"/><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" d="M8 11.5h.01M12 11.5h.01M16 11.5h.01"/>
+    </symbol>
+    <symbol id="i-clipboard" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M9 4H7a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2"/><rect x="9" y="2" width="6" height="4" rx="1.2" fill="none" stroke="currentColor" stroke-width="1.6"/><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="m9 13 2 2 4-4"/>
+    </symbol>
+    <symbol id="i-info" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" d="M12 11v5M12 7.6h.01"/>
+    </symbol>
+    <symbol id="i-mica" viewBox="0 0 24 24">
+      <rect x="6" y="2.8" width="12" height="18.4" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" d="M9.5 7h5M9.5 17h5"/><path fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" d="m9 12 2-2 4 4" opacity=".65"/>
+    </symbol>
+    <symbol id="i-case" viewBox="0 0 24 24">
+      <rect x="6.2" y="2.5" width="11.6" height="19" rx="2.6" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="9.7" cy="7" r="1" fill="currentColor"/><circle cx="13.6" cy="7" r="1" fill="currentColor"/><circle cx="16.8" cy="10" r=".8" fill="currentColor" opacity=".6"/>
+    </symbol>
+    <symbol id="i-cable" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M8 3v4M16 3v4M6.5 7h11v3.2a5.5 5.5 0 0 1-11 0V7Z"/><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" d="M12 15.7V21"/>
+    </symbol>
+    <symbol id="i-charger" viewBox="0 0 24 24">
+      <rect x="4" y="7.5" width="16" height="13" rx="3" fill="none" stroke="currentColor" stroke-width="1.5"/><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" d="M9 3.5v4M15 3.5v4M9 13.5h6"/>
+    </symbol>
+    <symbol id="i-headphones" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" d="M4 14.5v-2.2a8 8 0 0 1 16 0v2.2"/><rect x="3" y="13.8" width="4" height="7" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="17" y="13.8" width="4" height="7" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    </symbol>
+  </svg>
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="MKtec, ir al inicio">
+        <img class="brand-logo" src="assets/mktec/logo-mktec.png" width="284" height="400" alt="MKtec, iPhone y accesorios">
+        <span class="brand-text">
+          <span class="brand-name">MKtec</span>
+          <span class="brand-tag">iPhone y accesorios</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#inicio" data-nav="inicio">Inicio</a>
+        <a href="#catalogo" data-nav="catalogo">Catálogo</a>
+        <a href="#beneficios" data-nav="beneficios">Beneficios</a>
+        <a href="#preguntas" data-nav="preguntas">Preguntas frecuentes</a>
+        <a href="#contacto" data-nav="contacto">Contacto</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn--wa btn--header" href="https://wa.me/51903376736" target="_blank" rel="noopener noreferrer" data-wa-message="general">
+          <svg class="icon" aria-hidden="true"><use href="#i-wa"></use></svg>
+          Consultar por WhatsApp
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú de navegación">
+          <span class="bars" aria-hidden="true"><span></span><span></span><span></span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu">
+      <nav aria-label="Navegación móvil">
+        <a href="#inicio" data-close-menu>Inicio</a>
+        <a href="#catalogo" data-close-menu>Catálogo</a>
+        <a href="#beneficios" data-close-menu>Beneficios</a>
+        <a href="#preguntas" data-close-menu>Preguntas frecuentes</a>
+        <a href="#contacto" data-close-menu>Contacto</a>
+        <a class="btn btn--wa" href="https://wa.me/51903376736" target="_blank" rel="noopener noreferrer" data-wa-message="general" data-close-menu>
+          <svg class="icon" aria-hidden="true"><use href="#i-wa"></use></svg>
+          Consultar por WhatsApp
+        </a>
+      </nav>
+      <a class="menu-phone" href="tel:+51903376736">
+        <svg class="icon" aria-hidden="true"><use href="#i-phone"></use></svg>
+        +51 903 376 736
+      </a>
+    </div>
+  </header>
+  <main id="contenido">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>iPhone y accesorios · Perú</span>
+          <h1 id="hero-title">iPhones seleccionados. <span class="soft">Atención directa.</span></h1>
+          <p class="hero-lead">Revisa modelos y precios publicados en el catálogo. Antes de comprar, confirma por WhatsApp la disponibilidad, el estado y las condiciones de cada equipo.</p>
+          <div class="hero-actions">
+            <a class="btn btn--dark" href="#catalogo">
+              Ver catálogo
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg>
+            </a>
+            <a class="btn btn--wa" href="https://wa.me/51903376736" target="_blank" rel="noopener noreferrer" data-wa-message="general">
+              <svg class="icon" aria-hidden="true"><use href="#i-wa"></use></svg>
+              Consultar por WhatsApp
+            </a>
+          </div>
+          <p class="hero-note">
+            <svg class="icon" aria-hidden="true"><use href="#i-phone"></use></svg>
+            Atención por WhatsApp:
+            <a href="tel:+51903376736">+51 903 376 736</a>
+          </p>
+        </div>
+
+        <div class="hero-stage">
+          <div class="stage-disc" aria-hidden="true"></div>
+          <img class="phone phone--back" src="assets/mktec/iphone-18-pro.png" width="727" height="860" alt="iPhone 18 Pro, imagen referencial" fetchpriority="high" decoding="async">
+          <img class="phone phone--front" src="assets/mktec/iphone-17-pro-max.png" width="727" height="860" alt="iPhone 17 Pro Max, imagen referencial" fetchpriority="high" decoding="async">
+          <div class="float-card float-card--models">
+            <span class="float-dot" aria-hidden="true"><svg class="icon"><use href="#i-tag"></use></svg></span>
+            <span class="float-models-text">5 modelos<span>en catálogo</span></span>
+          </div>
+          <div class="float-card float-card--price">
+            <span class="float-label">iPhone 17 Pro Max</span>
+            <span class="float-value"><small>S/</small> 4,750</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust" aria-label="Información de compra">
+      <div class="container trust-grid">
+        <div class="trust-item">
+          <span class="trust-icon" aria-hidden="true"><svg class="icon"><use href="#i-tag"></use></svg></span>
+          <div>
+            <h2>Precios publicados</h2>
+            <p>Cada modelo del catálogo muestra su precio en soles.</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon" aria-hidden="true"><svg class="icon"><use href="#i-chat"></use></svg></span>
+          <div>
+            <h2>Consulta directa</h2>
+            <p>La conversación continúa por WhatsApp, sin intermediarios.</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon" aria-hidden="true"><svg class="icon"><use href="#i-clipboard"></use></svg></span>
+          <div>
+            <h2>Confirmación previa</h2>
+            <p>Disponibilidad y condiciones se confirman antes de comprar.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section catalog" id="catalogo" aria-labelledby="catalogo-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>Catálogo</span>
+            <h2 id="catalogo-title">Cinco iPhones, precios claros.</h2>
+          </div>
+          <div class="head-copy">
+            <p>Explora los modelos publicados y abre la conversación del que te interese. Las imágenes son referenciales y los detalles pendientes se confirman antes de comprar.</p>
+          </div>
+        </div>
+
+        <article class="product product--featured" data-product="17-pro-max">
+          <div class="product-media">
+            <span class="product-tag"><svg class="icon" aria-hidden="true"><use href="#i-tag"></use></svg>Modelo destacado</span>
+            <img src="assets/mktec/iphone-17-pro-max.png" width="727" height="860" alt="iPhone 17 Pro Max, imagen referencial" loading="lazy" decoding="async">
+            <span class="reference">Imagen referencial</span>
+          </div>
+          <div class="product-body">
+            <p class="product-kicker">iPhone</p>
+            <h3>iPhone 17 Pro Max</h3>
+            <p class="product-desc">El modelo destacado del catálogo, con una lista de accesorios incluidos.</p>
+
+            <div class="price-block">
+              <p class="price-label">Precio publicado</p>
+              <p class="price"><span class="currency">S/</span> <span class="amount" data-price-value>4,750</span></p>
+            </div>
+
+            <div class="included">
+              <h4>Incluye</h4>
+              <ul>
+                <li><svg class="icon" aria-hidden="true"><use href="#i-check"></use></svg>Mica</li>
+                <li><svg class="icon" aria-hidden="true"><use href="#i-check"></use></svg>Case</li>
+                <li><svg class="icon" aria-hidden="true"><use href="#i-check"></use></svg>Cable</li>
+                <li><svg class="icon" aria-hidden="true"><use href="#i-check"></use></svg>Cubo de carga</li>
+                <li><svg class="icon" aria-hidden="true"><use href="#i-check"></use></svg>Audífonos P9 de regalo</li>
+              </ul>
+            </div>
+
+            <div class="product-actions">
+              <a class="btn btn--wa btn--block" href="https://wa.me/51903376736" target="_blank" rel="noopener noreferrer" data-wa-product>
+                <svg class="icon" aria-hidden="true"><use href="#i-wa"></use></svg>
+                Consultar por WhatsApp
+              </a>
+              <p class="fine-print">Disponibilidad, capacidad, color, estado y garantía se confirman por WhatsApp. Los accesorios indicados están incluidos.</p>
+            </div>
+          </div>
+        </article>
+
+        <div class="product-grid">
+          <article class="product product--card" data-product="18-pro">
+            <div class="product-media">
+              <img src="assets/mktec/iphone-18-pro.png" width="727" height="860" alt="iPhone 18 Pro, imagen referencial" loading="lazy" decoding="async">
+              <span class="reference">Imagen referencial</span>
+            </div>
+            <div class="product-body">
+              <p class="product-kicker">iPhone</p>
+              <h3>iPhone 18 Pro</h3>
+              <p class="product-desc">Consulta disponibilidad, capacidad, color, estado y condiciones de garantía por WhatsApp.</p>
+              <div class="price-block">
+                <p class="price-label">Precio publicado</p>
+                <p class="price"><span class="currency">S/</span> <span class="amount" data-price-value>6,200</span></p>
+              </div>
+              <div class="product-actions">
+                <a class="btn btn--wa btn--block" href="https://wa.me/51903376736" target="_blank" rel="noopener noreferrer" data-wa-product>
+                  <svg class="icon" aria-hidden="true"><use href="#i-wa"></use></svg>
+                  Consultar por WhatsApp
+                </a>
+                <p class="fine-print">Disponibilidad y condiciones a confirmar antes de la compra.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="product product--card" data-product="16-pro-max">
+            <div class="product-media">
+              <img src="assets/mktec/iphone-16-pro-max.png" width="727" height="860" alt="iPhone 16 Pro Max, imagen referencial" loading="lazy" decoding="async">
+              <span class="reference">Imagen referencial</span>
+            </div>
+            <div class="product-body">
+              <p class="product-kicker">iPhone</p>
+              <h3>iPhone 16 Pro Max</h3>
+              <div class="product-chips">
+                <span class="chip">256 GB</span>
+                <span class="chip"><svg class="icon" aria-hidden="true"><use href="#i-check"></use></svg>Batería 100%</span>
+              </div>
+              <p class="product-desc">Capacidad de 256 GB y batería indicada al 100%. El resto de detalles se confirma por WhatsApp.</p>
+              <div class="price-block">
+                <p class="price-label">Precio publicado</p>
+                <p class="price"><span class="currency">S/</span> <span class="amount" data-price-value>3,299</span></p>
+              </div>
+              <div class="product-actions">
+                <a class="btn btn--wa btn--block" href="https://wa.me/51903376736" target="_blank" rel="noopener noreferrer" data-wa-product>
+                  <svg class="icon" aria-hidden="true"><use href="#i-wa"></use></svg>
+                  Consultar por WhatsApp
+                </a>
+                <p class="fine-print">Disponibilidad, color, estado y garantía a confirmar.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="product product--card" data-product="13-pro-max">
+            <div class="product-media">
+              <img src="assets/mktec/iphone-13-pro-max.png" width="727" height="860" alt="iPhone 13 Pro Max, imagen referencial" loading="lazy" decoding="async">
+              <span class="reference">Imagen referencial</span>
+            </div>
+            <div class="product-body">
+              <p class="product-kicker">iPhone</p>
+              <h3>iPhone 13 Pro Max</h3>
+              <div class="product-chips">
+                <span class="chip"><svg class="icon" aria-hidden="true"><use href="#i-check"></use></svg>Estado 10/10</span>
+              </div>
+              <p class="product-desc">Estado estético indicado de 10/10. Capacidad, batería y color se confirman por WhatsApp.</p>
+              <div class="price-block">
+                <p class="price-label">Precio publicado</p>
+                <p class="price"><span class="currency">S/</span> <span class="amount" data-price-value>2,150</span></p>
+              </div>
+              <div class="product-actions">
+                <a class="btn btn--wa btn--block" href="https://wa.me/51903376736" target="_blank" rel="noopener noreferrer" data-wa-product>
+                  <svg class="icon" aria-hidden="true"><use href="#i-wa"></use></svg>
+                  Consultar por WhatsApp
+                </a>
+                <p class="fine-print">Disponibilidad, capacidad, batería, color y garantía a confirmar.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="product product--card" data-product="13-pro">
+            <div class="product-media">
+              <img src="assets/mktec/iphone-13-pro.png" width="727" height="860" alt="iPhone 13 Pro, imagen referencial" loading="lazy" decoding="async">
+              <span class="reference">Imagen referencial</span>
+            </div>
+            <div class="product-body">
+              <p class="product-kicker">iPhone</p>
+              <h3>iPhone 13 Pro</h3>
+              <p class="product-desc">Consulta disponibilidad, capacidad, color, estado y batería directamente por WhatsApp.</p>
+              <div class="price-block">
+                <p class="price-label">Precio publicado</p>
+                <p class="price"><span class="currency">S/</span> <span class="amount" data-price-value>1,849</span></p>
+              </div>
+              <div class="product-actions">
+                <a class="btn btn--wa btn--block" href="https://wa.me/51903376736" target="_blank" rel="noopener noreferrer" data-wa-product>
+                  <svg class="icon" aria-hidden="true"><use href="#i-wa"></use></svg>
+                  Consultar por WhatsApp
+                </a>
+                <p class="fine-print">Disponibilidad y condiciones a confirmar antes de la compra.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <p class="catalog-note">
+          <svg class="icon" aria-hidden="true"><use href="#i-info"></use></svg>
+          Los precios mostrados son los publicados en este catálogo y deben confirmarse antes de la compra. Las imágenes son referenciales y pueden no corresponder a la unidad disponible.
+        </p>
+      </div>
+    </section>
+
+    <section class="accessories" id="accesorios" aria-labelledby="accesorios-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>Accesorios</span>
+            <h2 id="accesorios-title">Complementos para tu iPhone.</h2>
+          </div>
+          <div class="head-copy">
+            <p>Micas, cases, cables, cubos de carga y audífonos P9. Los precios, la disponibilidad y la compatibilidad se consultan directamente por WhatsApp.</p>
+          </div>
+        </div>
+
+        <div class="accessory-grid">
+          <a class="accessory" href="https://wa.me/51903376736" target="_blank" rel="noopener noreferrer" data-wa-message="accessories">
+            <span class="accessory-icon" aria-hidden="true"><svg class="icon"><use href="#i-mica"></use></svg></span>
+            <h3>Micas</h3>
+            <p>Protección para la pantalla. Consulta compatibilidad y precio.</p>
+            <span class="acc-cta">Consultar <svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+          </a>
+          <a class="accessory" href="https://wa.me/51903376736" target="_blank" rel="noopener noreferrer" data-wa-message="accessories">
+            <span class="accessory-icon" aria-hidden="true"><svg class="icon"><use href="#i-case"></use></svg></span>
+            <h3>Cases</h3>
+            <p>Fundas para distintos modelos. Consulta opciones y precio.</p>
+            <span class="acc-cta">Consultar <svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+          </a>
+          <a class="accessory" href="https://wa.me/51903376736" target="_blank" rel="noopener noreferrer" data-wa-message="accessories">
+            <span class="accessory-icon" aria-hidden="true"><svg class="icon"><use href="#i-cable"></use></svg></span>
+            <h3>Cables</h3>
+            <p>Cables de carga y datos. Consulta el tipo disponible y su precio.</p>
+            <span class="acc-cta">Consultar <svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+          </a>
+          <a class="accessory" href="https://wa.me/51903376736" target="_blank" rel="noopener noreferrer" data-wa-message="accessories">
+            <span class="accessory-icon" aria-hidden="true"><svg class="icon"><use href="#i-charger"></use></svg></span>
+            <h3>Cubos de carga</h3>
+            <p>Adaptadores de pared. Consulta potencia, compatibilidad y precio.</p>
+            <span class="acc-cta">Consultar <svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+          </a>
+          <a class="accessory" href="https://wa.me/51903376736" target="_blank" rel="noopener noreferrer" data-wa-message="accessories">
+            <span class="accessory-icon" aria-hidden="true"><svg class="icon"><use href="#i-headphones"></use></svg></span>
+            <h3>Audífonos P9</h3>
+            <p>Incluidos con el iPhone 17 Pro Max. Consulta disponibilidad y precio como accesorio.</p>
+            <span class="acc-cta">Consultar <svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></span>
+          </a>
+        </div>
+
+        <div class="accessories-foot">
+          <p><strong>Precios y compatibilidad a consulta.</strong> No publicamos precios de accesorios porque varían según el modelo y la disponibilidad. Escríbenos y te confirmamos los detalles.</p>
+          <a class="btn btn--wa" href="https://wa.me/51903376736" target="_blank" rel="noopener noreferrer" data-wa-message="accessories">
+            <svg class="icon" aria-hidden="true"><use href="#i-wa"></use></svg>
+            Consultar accesorios
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="beneficios" aria-labelledby="beneficios-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>Beneficios</span>
+            <h2 id="beneficios-title">Una compra con información clara.</h2>
+          </div>
+          <div class="head-copy">
+            <p>La información importante se confirma antes de comprar. Así sabes qué estás viendo y qué falta conversar.</p>
+          </div>
+        </div>
+
+        <div class="benefits-grid">
+          <article class="benefit">
+            <p class="benefit-index">01</p>
+            <h3>Atención directa</h3>
+            <p>Conversas con MKtec por WhatsApp, sin formularios ni pasos innecesarios.</p>
+          </article>
+          <article class="benefit">
+            <p class="benefit-index">02</p>
+            <h3>Información antes de comprar</h3>
+            <p>Cada precio está publicado y los detalles pendientes se confirman en la conversación.</p>
+          </article>
+          <article class="benefit">
+            <p class="benefit-index">03</p>
+            <h3>Catálogo enfocado</h3>
+            <p>Cinco modelos de iPhone y una selección de accesorios para complementar tu equipo.</p>
+          </article>
+          <article class="benefit">
+            <p class="benefit-index">04</p>
+            <h3>Coordinación clara</h3>
+            <p>Disponibilidad, condiciones, entrega y pago se acuerdan directamente contigo.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="preguntas" aria-labelledby="preguntas-title">
+      <div class="container faq-layout">
+        <aside class="faq-aside">
+          <span class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>Antes de comprar</span>
+          <h2 id="preguntas-title">Preguntas frecuentes.</h2>
+          <p>Lo que sí está publicado y lo que conviene confirmar. Si tu duda no aparece aquí, escríbenos por WhatsApp.</p>
+          <div class="faq-card">
+            <h3>¿Tienes otra consulta?</h3>
+            <p>Respuesta directa por WhatsApp, sin compromiso de compra.</p>
+            <a class="btn btn--wa" href="https://wa.me/51903376736" target="_blank" rel="noopener noreferrer" data-wa-message="general">
+              <svg class="icon" aria-hidden="true"><use href="#i-wa"></use></svg>
+              Consultar por WhatsApp
+            </a>
+          </div>
+        </aside>
+
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary><span>¿Los precios y la disponibilidad están confirmados?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>Los precios que ves son los publicados en este catálogo. La disponibilidad puede cambiar, por lo que debe confirmarse por WhatsApp antes de cualquier compra. Si un modelo no está disponible, te lo indicaremos en la conversación.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>¿Los iPhones son nuevos o usados?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>El catálogo no asigna una condición general a todos los modelos. Solo se indica lo que aparece en cada ficha: el iPhone 16 Pro Max señala batería al 100% y el iPhone 13 Pro Max, estado estético 10/10. Para el resto de detalles, consulta por WhatsApp.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>¿Qué capacidad, color o salud de batería tiene cada modelo?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>Solo el iPhone 16 Pro Max indica 256 GB y batería al 100%. Para los demás modelos, la capacidad, el color y la salud de batería no están publicados; confírmalos por WhatsApp antes de comprar.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>¿Qué incluye el iPhone 17 Pro Max?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>Incluye mica, case, cable, cubo de carga y audífonos P9 de regalo, según el catálogo. La disponibilidad y las condiciones finales se confirman por WhatsApp.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>¿Los otros iPhones incluyen accesorios?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>No se ha confirmado una lista de accesorios para los demás modelos. Consulta por WhatsApp qué incluye el equipo que te interesa.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>¿Las imágenes son del equipo que se entrega?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>No. Las imágenes son referenciales y pueden no corresponder a la unidad disponible. Antes de comprar, solicita por WhatsApp los detalles y las fotos del equipo.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>¿Realizan envíos o entregas?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>Las condiciones de entrega no se detallan en esta web. Escríbenos por WhatsApp con tu ubicación para coordinar la opción que corresponda.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>¿Qué métodos de pago aceptan?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>Los métodos de pago no se publican en esta web. Se confirman directamente por WhatsApp antes de cerrar la compra.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>¿Cómo se gestiona la garantía y la compra?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>La garantía no se detalla en esta web; sus condiciones se consultan por WhatsApp. Para comprar, elige el modelo, envía tu consulta y confirma disponibilidad, capacidad, color, estado, accesorios y condiciones antes de coordinar la entrega y el pago.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacto" aria-labelledby="contacto-title">
+      <div class="container">
+        <div class="contact-panel">
+          <div class="contact-copy">
+            <span class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>Contacto</span>
+            <h2 id="contacto-title">Conversemos sobre tu próximo iPhone.</h2>
+            <p>Escríbenos para confirmar el modelo que te interesa, sus condiciones y la forma de coordinar la compra.</p>
+            <a class="contact-phone" href="tel:+51903376736">
+              <svg class="icon" aria-hidden="true"><use href="#i-phone"></use></svg>
+              +51 903 376 736
+            </a>
+            <div class="contact-actions">
+              <a class="btn btn--wa" href="https://wa.me/51903376736" target="_blank" rel="noopener noreferrer" data-wa-message="general">
+                <svg class="icon" aria-hidden="true"><use href="#i-wa"></use></svg>
+                Consultar por WhatsApp
+              </a>
+              <a class="btn btn--ghost" href="#catalogo">
+                Ver catálogo
+                <svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg>
+              </a>
+            </div>
+            <p class="contact-caption">Precios y disponibilidad sujetos a confirmación antes de la compra.</p>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-top">
+              <span class="logo-tile">
+                <img src="assets/mktec/logo-mktec.png" width="284" height="400" alt="Logo de MKtec" loading="lazy" decoding="async">
+              </span>
+              <div>
+                <p class="contact-card-name">MKtec</p>
+                <p class="contact-card-tag">iPhone y accesorios</p>
+              </div>
+            </div>
+            <p>Atención directa para consultar modelos, precios publicados y condiciones antes de comprar.</p>
+            <ul class="contact-card-list">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"></use></svg>Catálogo de iPhones y accesorios</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"></use></svg>Consulta por WhatsApp en Perú</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"></use></svg>Coordinación directa, sin formularios</li>
+            </ul>
+            <a class="btn btn--wa btn--block" href="https://wa.me/51903376736" target="_blank" rel="noopener noreferrer" data-wa-message="general">
+              <svg class="icon" aria-hidden="true"><use href="#i-wa"></use></svg>
+              Escribir por WhatsApp
+            </a>
+            <p class="contact-card-note">Las imágenes del catálogo son referenciales.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="#inicio" aria-label="MKtec, volver al inicio">
+            <span class="logo-tile">
+              <img src="assets/mktec/logo-mktec.png" width="284" height="400" alt="MKtec, iPhone y accesorios" loading="lazy" decoding="async">
+            </span>
+            <span class="brand-text">
+              <span class="brand-name">MKtec</span>
+              <span class="brand-tag">iPhone y accesorios</span>
+            </span>
+          </a>
+          <p>Catálogo de iPhones y accesorios con atención directa por WhatsApp en Perú. Confirma siempre disponibilidad y condiciones antes de comprar.</p>
+        </div>
+
+        <div class="footer-col footer-col--nav">
+          <h3>Navegación</h3>
+          <nav class="footer-nav" aria-label="Navegación del pie de página">
+            <a href="#inicio">Inicio</a>
+            <a href="#catalogo">Catálogo</a>
+            <a href="#beneficios">Beneficios</a>
+            <a href="#preguntas">Preguntas frecuentes</a>
+            <a href="#contacto">Contacto</a>
+          </nav>
+        </div>
+
+        <div class="footer-col footer-contact">
+          <h3>Contacto</h3>
+          <a href="tel:+51903376736">
+            <svg class="icon" aria-hidden="true"><use href="#i-phone"></use></svg>
+            +51 903 376 736
+          </a>
+          <a href="https://wa.me/51903376736" target="_blank" rel="noopener noreferrer" data-wa-message="general">
+            <svg class="icon" aria-hidden="true"><use href="#i-wa"></use></svg>
+            Consultar por WhatsApp
+          </a>
+          <p>Precios y disponibilidad sujetos a confirmación. Imágenes referenciales.</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="year">2026</span> MKtec. Todos los derechos reservados.</p>
+        <p class="footer-legal">Los nombres y marcas de productos pertenecen a sus respectivos titulares.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/51903376736" target="_blank" rel="noopener noreferrer" data-wa-message="general" aria-label="Consultar por WhatsApp" title="Consultar por WhatsApp">
+    <svg class="icon" aria-hidden="true"><use href="#i-wa"></use></svg>
+  </a>
+  <script>
+    (() => {
+      'use strict';
+
+      const WA_NUMBER = '51903376736';
+      const WA_BASE = `https://wa.me/${WA_NUMBER}`;
+
+      const PRODUCTS = {
+        '17-pro-max': {
+          name: 'iPhone 17 Pro Max',
+          price: '4,750',
+          message: 'Hola, MKtec. Estoy interesado en el iPhone 17 Pro Max de S/ {price}. Quisiera confirmar su disponibilidad, capacidad, color, estado, garantía y los accesorios incluidos: mica, case, cable, cubo de carga y audífonos P9 de regalo'
+        },
+        '18-pro': {
+          name: 'iPhone 18 Pro',
+          price: '6,200',
+          message: 'Hola, MKtec. Estoy interesado en el iPhone 18 Pro de S/ {price}. ¿Podrían confirmarme su disponibilidad, capacidad, color, estado, salud de batería, accesorios incluidos y condiciones de garantía?'
+        },
+        '16-pro-max': {
+          name: 'iPhone 16 Pro Max',
+          price: '3,299',
+          message: 'Hola, MKtec. Estoy interesado en el iPhone 16 Pro Max de 256 GB, con batería indicada al 100%, por S/ {price}. ¿Podrían confirmarme su disponibilidad, color, estado, accesorios incluidos y garantía?'
+        },
+        '13-pro-max': {
+          name: 'iPhone 13 Pro Max',
+          price: '2,150',
+          message: 'Hola, MKtec. Estoy interesado en el iPhone 13 Pro Max de S/ {price}, con estado estético indicado de 10/10. ¿Podrían confirmarme su disponibilidad, capacidad, salud de batería, color, accesorios y garantía?'
+        },
+        '13-pro': {
+          name: 'iPhone 13 Pro',
+          price: '1,849',
+          message: 'Hola, MKtec. Estoy interesado en el iPhone 13 Pro de S/ {price}. ¿Podrían confirmarme su disponibilidad, capacidad, color, estado, salud de batería, accesorios incluidos y garantía?'
+        }
+      };
+
+      const MESSAGES = {
+        general: 'Hola, MKtec. Quisiera recibir información sobre los iPhones y accesorios del catálogo.',
+        accessories: 'Hola, MKtec. Quisiera consultar precios, disponibilidad y compatibilidad de los accesorios: micas, cases, cables, cubos de carga y audífonos P9.'
+      };
+
+      const waLink = (message) => `${WA_BASE}?text=${encodeURIComponent(message)}`;
+
+      document.querySelectorAll('[data-product]').forEach((card) => {
+        const product = PRODUCTS[card.dataset.product];
+        if (!product) return;
+
+        const amount = card.querySelector('[data-price-value]');
+        if (amount) amount.textContent = product.price;
+
+        const link = card.querySelector('[data-wa-product]');
+        if (link) {
+          link.href = waLink(product.message.replace('{price}', product.price));
+          link.setAttribute('aria-label', `Consultar por WhatsApp sobre el ${product.name} (se abre en una nueva pestaña)`);
+        }
+      });
+
+      document.querySelectorAll('[data-wa-message]').forEach((link) => {
+        const message = MESSAGES[link.dataset.waMessage];
+        if (message) link.href = waLink(message);
+      });
+
+      const header = document.getElementById('header');
+      const menuButton = document.querySelector('.menu-toggle');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const floatButton = document.querySelector('.wa-float');
+      const contactSection = document.getElementById('contacto');
+      let menuOpen = false;
+      let ctaVisible = false;
+
+      function updateFloat() {
+        if (!floatButton) return;
+        const nearContact = contactSection
+          ? contactSection.getBoundingClientRect().top < window.innerHeight - 70
+          : false;
+        const hideForCta = window.matchMedia('(max-width: 900px)').matches && ctaVisible;
+        floatButton.classList.toggle('is-hidden', nearContact || hideForCta || menuOpen);
+      }
+
+      function setMenu(open) {
+        menuOpen = open;
+        menuButton.setAttribute('aria-expanded', String(open));
+        menuButton.setAttribute('aria-label', open ? 'Cerrar menú de navegación' : 'Abrir menú de navegación');
+        mobileMenu.classList.toggle('is-open', open);
+        document.body.classList.toggle('menu-open', open);
+        updateFloat();
+      }
+
+      if (menuButton && mobileMenu) {
+        menuButton.addEventListener('click', () => setMenu(!menuOpen));
+        mobileMenu.querySelectorAll('[data-close-menu]').forEach((link) => {
+          link.addEventListener('click', () => setMenu(false));
+        });
+        document.addEventListener('keydown', (event) => {
+          if (event.key === 'Escape' && menuOpen) {
+            setMenu(false);
+            menuButton.focus();
+          }
+        });
+        document.addEventListener('click', (event) => {
+          if (menuOpen && !header.contains(event.target)) setMenu(false);
+        });
+        const desktopQuery = window.matchMedia('(min-width: 981px)');
+        if (desktopQuery.addEventListener) {
+          desktopQuery.addEventListener('change', (event) => {
+            if (event.matches) setMenu(false);
+          });
+        }
+      }
+
+      if ('IntersectionObserver' in window) {
+        const visibleCtas = new Set();
+        const ctaObserver = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) visibleCtas.add(entry.target);
+            else visibleCtas.delete(entry.target);
+          });
+          ctaVisible = visibleCtas.size > 0;
+          updateFloat();
+        }, { threshold: 0.25 });
+        document.querySelectorAll('main .btn--wa').forEach((link) => ctaObserver.observe(link));
+      }
+
+      const navLinks = Array.from(document.querySelectorAll('.main-nav a'));
+      const sections = navLinks
+        .map((link) => document.querySelector(link.getAttribute('href')))
+        .filter(Boolean);
+
+      function updateActiveSection() {
+        if (!sections.length) return;
+        let current = sections[0].id;
+        const threshold = window.innerHeight * 0.34;
+        sections.forEach((section) => {
+          if (section.getBoundingClientRect().top <= threshold) current = section.id;
+        });
+        if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4) {
+          current = 'contacto';
+        }
+        navLinks.forEach((link) => {
+          const active = link.getAttribute('href') === `#${current}`;
+          link.classList.toggle('is-active', active);
+          if (active) link.setAttribute('aria-current', 'location');
+          else link.removeAttribute('aria-current');
+        });
+      }
+
+      const faqItems = Array.from(document.querySelectorAll('.faq-item'));
+      faqItems.forEach((item) => {
+        item.addEventListener('toggle', () => {
+          if (!item.open) return;
+          faqItems.forEach((other) => {
+            if (other !== item) other.open = false;
+          });
+        });
+      });
+
+      let ticking = false;
+      function onScroll() {
+        if (ticking) return;
+        ticking = true;
+        window.requestAnimationFrame(() => {
+          header.classList.toggle('is-scrolled', window.scrollY > 8);
+          updateActiveSection();
+          updateFloat();
+          ticking = false;
+        });
+      }
+
+      window.addEventListener('scroll', onScroll, { passive: true });
+      window.addEventListener('resize', () => {
+        updateActiveSection();
+        updateFloat();
+      }, { passive: true });
+
+      const year = document.getElementById('year');
+      if (year) year.textContent = String(new Date().getFullYear());
+
+      updateActiveSection();
+      updateFloat();
+    })();
+  </script>
+</body>
+</html>
